@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Event Assignment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>🎉 JavaScript Playground 🎉</h1>
+
+    <!-- 1. Event Handling -->
+    <button id="clickBtn">Click Me</button>
+    <div id="hoverBox">Hover over me!</div>
+    <button id="secretBtn">Double Click Me</button>
+
+    <!-- 2. Interactive Elements -->
+    <button id="toggleBtn">Toggle</button>
+
+    <div class="slideshow">
+      <img
+        id="slide"
+        src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Slide"
+      />
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+    </div>
+
+    <div class="tabs">
+      <button class="tab" data-target="tab1">Tab 1</button>
+      <button class="tab" data-target="tab2">Tab 2</button>
+      <div id="tab1" class="tab-content">This is Tab 1 content.</div>
+      <div id="tab2" class="tab-content">This is Tab 2 content.</div>
+    </div>
+
+    <!-- 3. Form Validation -->
+    <form id="myForm">
+      <input type="text" id="name" required placeholder="Name" />
+      <br />
+      <br />
+      <input type="email" id="email" required placeholder="Email" />
+      <br />
+      <br />
+      <input type="password" id="password" required placeholder="Password" />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <div id="feedback"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
